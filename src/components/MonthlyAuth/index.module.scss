@@ -1,0 +1,139 @@
+.page {
+  min-height: 100vh;
+  background: #f3f4f6;
+  padding: 40px;
+}
+
+.container {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 1400px;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dropdown {
+  min-width: 220px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.section {
+  border: 1px solid #e5e7eb;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.topRow {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.rowsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.rowInput {
+  flex: 1;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.addSectionBtn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.editBtn {
+  background: #f59e0b;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+.addBtn {
+  background: #16a34a;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+.deleteBtn {
+  background: #dc2626;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+.completeWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.completeBtn {
+  background: #4f46e5;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.cancelBtn {
+  padding: 14px 28px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.submitBtn {
+  background: #2563eb;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 12px;
+}
